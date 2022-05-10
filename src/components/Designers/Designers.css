@@ -1,0 +1,47 @@
+.Designers{
+  width: 90%;
+  padding: 0 5%;
+}
+
+.upDes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.upDes p{
+  text-align: center;
+}
+
+.names{
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.names button{
+  width: 120px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 50px;
+  background: white;
+  margin-left: 50px;
+}
+
+button.active{
+  background: black;
+  color: white;
+}
+
+.info{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.image{
+  width: 500px;
+  height: 400px;
+  background: url('../images/designer.png') center / cover;
+}

@@ -1,0 +1,28 @@
+.work{
+  width: 90%;
+  padding: 0 5%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.imageWork{
+  width: 600px;
+  height: 500px;
+  background: url('../images/work.png') center / cover;
+  border-radius: 10px;
+}
+
+.btnWork{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btnWork button{
+  width: 150px;
+  height: 40px;
+  background: black;
+  color: white;
+  border: 0;
+}

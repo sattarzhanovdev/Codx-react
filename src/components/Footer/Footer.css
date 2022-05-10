@@ -1,0 +1,49 @@
+.footer{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 100px 0 5% 5%;
+}
+
+.listFoot{
+  list-style: none;
+}
+
+.listFoot img{
+  margin-bottom: 25px;
+}
+
+.listFoot li a{
+  text-decoration: none;
+  color: black;
+}
+
+form input{
+  width: 350px;
+  height: 40px;
+  padding-left: 15px;
+  background: #F6F6F6;
+  border-radius: 50px;
+  outline: 0;
+  border: 0;
+}
+
+form button{
+  width: 150px;
+  height: 40px;
+  background: black;
+  border: 0;
+  border-radius: 50px;
+  color: white;
+}
+
+.socialIcons{
+  display: flex;
+  list-style: none;
+  margin-left: -20px;
+}
+
+.socialIcons li a{
+  margin-left: 25px;
+  color: black;
+}

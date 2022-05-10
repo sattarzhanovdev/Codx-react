@@ -1,0 +1,14 @@
+.banner{
+  width: 90%;
+  height: 60vh;
+  padding: 50px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rightBanner{
+  width: 600px;
+  height: 500px;
+  background: url('../images/bannerImage.png') center / cover;
+}

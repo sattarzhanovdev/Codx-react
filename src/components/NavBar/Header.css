@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+  margin: 0;
+  font-family: outfit;
+  font-weight: 400;
+}
+
+.navBar{
+  width: 90%;
+  padding: 50px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.leftNav{
+  display: flex;
+}
+
+.leftNav .list{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.leftNav .list li a{
+  margin-left: 25px;
+  text-decoration: none;
+  color: black;
+}
+
+.rightNav{
+  display: flex;
+  align-items: center;
+}
+
+.rightNav .socialIcons{
+  display: flex;
+  list-style: none;
+}
+
+.socialIcons li a{
+  margin-left: 25px;
+  color: black;
+}
+
+.viewBtn button{
+  width: 150px;
+  height: 45px;
+  border-radius: 50px;
+  background: #2F2F2F;
+  border: 0;
+  font-size: 15px;
+  color: white;
+}
+
+.bar{
+  list-style: none;
+  display: none;
+}
+
+.bar li i{
+  font-size: 25px;
+  cursor: pointer;
+}
