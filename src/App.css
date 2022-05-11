@@ -1,7 +1,9 @@
-body::-webkit-scrollbar{
-  background: #EAD71B;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  font-family: outfit;
 }
-body::-webkit-scrollbar-thumb{
-  background: #BF2586;
-  border-radius: 100px;
+
+button{
+  cursor: pointer;
 }
