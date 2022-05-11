@@ -7,6 +7,10 @@
   justify-content: space-between;
 }
 
+.leftBanner{
+  margin-left: 35px;
+}
+
 .rightBanner{
   width: 600px;
   height: 500px;

@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer'
 import Header from './components/NavBar/Header'
 import NFTs from './components/NFTs/NFTs'
 import Work from './components/Work/Work'
+import './App.css'
 
 function App() {
   return (
